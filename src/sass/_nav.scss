@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #fff !important;
+    padding: 0;
+    .dropdown-menu {
+        border: none;
+    }
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    .navbar-collapse {
+        font: 400 16px/22px "Open Sans";
+        text-transform: uppercase;
+        color: #302528;
+    }
+    .dropdown-item {
+        font: 400 16px/22px "Open Sans";
+        color: #000000; 
+        &:hover {
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.line {
+    border-top: 1px solid #979797;
+    margin-top: 34px;
+    &__prior {
+        margin-top: 100px;
+    }
+    &__footer {
+        margin-top: 183px;
+        padding-bottom: 42px;
+    }
+}

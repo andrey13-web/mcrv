@@ -1,0 +1,39 @@
+.partners {
+    padding: 0;
+    &__title {
+        font: 400 20px/22px 'Open Sans';
+        color: #302528;
+    }
+    &__adress {
+        font: 400 16px/22px 'Open Sans';
+        color: #302528;
+    }    
+}
+
+.about {
+    display: block;
+    text-align: right;
+    padding: 0;
+    &__block {
+        &_li {
+            list-style: none;
+            &-link {
+                font: 400 16px/22px 'Open Sans';
+                color: #302528;
+                &:hover {
+                    color: #302528; 
+                }
+            }
+        }        
+    }
+}
+.design {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    &__txt {
+        padding-top: 40px;
+        font: 400 16px/22px 'Open Sans';
+        color: rgba(48, 37, 40, 0.646966);
+    }
+}

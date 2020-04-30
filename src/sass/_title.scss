@@ -1,0 +1,12 @@
+.title {
+    font: 700 32px/40px 'Palanquin';
+    text-transform: uppercase;
+    color: #181818;
+    padding: 39px 0 0;
+    &__prior {
+        padding-top: 100px;
+    }
+    &__team {
+        padding-bottom: 27px;
+    }
+}
